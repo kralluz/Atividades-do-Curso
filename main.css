@@ -4,7 +4,9 @@
     padding: 0;
 }
 
+
 body > header {
+    overflow-x: hidden;
     background-image: url(https://images.wallpaperscraft.com/image/single/waterfall_cliff_stone_141850_2048x1152.jpg)    ;
     padding: 16px 0;
     color: rgb(241, 241, 243);
@@ -27,11 +29,13 @@ header li a {
     text-decoration: none;
 }
 
-.container {
-    width: 1366px;
-    margin: 0 auto;
-}
 
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+
+}
+    
 .articles {
     display: flex;
     flex-wrap: wrap;
